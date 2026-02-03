@@ -14,19 +14,9 @@ function MessageCard({ isActive }) {
   const messageContentRef = useRef(null);
 
   const message = `[Recipient Name],
-
-Your personalized birthday message goes here.
-
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
-
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
-
-Happy Birthday! 🎉
-
-— [Your Name]`;
-
+const recipientName = "Shriya";
+const senderName = "Ishan";
+const message = `"HAPPIEST BIRTHDAY MY BABY JUST ENJOY YOUR DAY AND ILL MAKE SURE THAT YOU'RE ENJOYING YOUR DAY TO THE FULLEST!!! LOTS OF VIRTUAL HUGS AND KISSES WHILE YOU'LL BE CUTTING THAT CAKE`;
   // Handle page transitions
   useEffect(() => {
     // Only trigger on transition to active
